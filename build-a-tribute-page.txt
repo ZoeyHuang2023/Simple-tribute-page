@@ -1,0 +1,135 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="UTF-8">
+  <title id="title">Build a Tribute Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+  </head>
+  
+  <main id="main">
+ 
+    
+    <header>
+        <div class="top">
+      <h1 class="bold">Coco Lee</h1>
+        
+      <p>Hong Kong-born Chinese-American singer, dancer and actress</p>
+      </div>
+      </header>
+      <div class="img">
+        <figure id="img-div">
+        <img  id="image" src="https://static1.straitstimes.com.sg/s3fs-public/styles/large30x20/public/articles/2023/07/27/aicocolee2707.jpg" alt="Coco Lee's photo">
+      <figcaption id="img-caption">Coco lee was the <strong>first Chinese singer</strong> to break into the American market </figcaption>  
+        </figure>
+      </div>
+      <div class="career-path">
+        <h2>Here is the career path of Coco Lee</h2>
+        <div id="tribute-info">
+          <section>
+          <li class="bold"> Career beginnings and Sony Music: 1993–1998</li>
+<li class="description">During the summer of 1992, Lee returned to Hong Kong to see her sisters participate in the Miss Hong Kong Pagean.</li>
+          <li class="bold">International collaborations and English debut: 1998–2005</li>
+          <li class="description">In August 1998, Coco performed in Taiwan to a concert audience of more than 50,000 fans, the second-largest concert audience in Taiwan, exceeded only by Michael Jackson.</li>
+          <li class="bold">Second English album and Warner Music: 2005–2011</li>
+          <li class="description">In 2005, Sony BMG released her second English album, Exposed. The album was banned in Mainland China for sexy lyrics in a few songs such as Touch or So Good.</li>
+          <li class="bold">New album: 2011–2023</li>
+          <li class="description">On 8 June 2011, Lee announced that had she set up her own studio. On 25 June, her song Four seas alliance.</li>
+          </section>   
+        </div>
+        </div>
+<div  class="bold">
+If you have time, you should read more about this incredible human being on her <a id="tribute-link" target="_blank" href="https://en.wikipedia.org/wiki/Coco_Lee">Wikipedia</a>
+</div>
+</main>
+
+** end of undefined **
+
+** start of undefined **
+
+* {
+  Box-sizing:border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family:"Open Sans", sans-serif;
+}
+
+header h1 {
+  margin-top:30px;
+  margin-bottom:-10px;
+}
+
+header h1, header p {
+  text-align:center;
+  letter-spacing:0.5px;  
+}
+.top {
+  background-color:rgb(246, 245, 245);
+  height:80px;
+  
+  border-radius:15px;
+}
+
+img {
+  display:block;
+  position:center;
+  height:auto;
+  max-width:100%;
+  border-radius:15px;
+  margin:40px auto 15px;
+  box-shadow:10px 10px 10px rgb(206, 206, 206);
+}
+
+figure {
+  text-align:center; 
+}
+
+.career-path {
+  background-color:rgb(246, 245, 245);
+  flex-direction:column;
+  width:100%;
+  justify-content:space-evenly;
+  align-items:center;
+  margin:10px auto;
+
+}
+
+h2 {
+  text-align:center;
+}
+
+.tribute-info {
+  display:inline;
+  width:100%;
+
+  
+}
+.bold {
+ 
+  font-weight: 800;
+}
+.tribe-link {
+  margin:18px;
+  font-size:18px;
+}
+
+.li {
+  width:100%;
+}
+
+.description {
+  list-style:none;
+  padding-bottom: 25px;
+  margin-left: 20px
+}
+
+** end of undefined **
+
